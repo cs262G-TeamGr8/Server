@@ -23,6 +23,7 @@ CREATE TABLE Season (
     
 CREATE TABLE League (
 	ID integer PRIMARY KEY,
+    --We have lots of varchars here - do we want to consider splitting them off into tables so we don't wind up with ceod bakestblal?
     sportName varchar(50),
     gender varchar(50),
     level varchar(50),
@@ -82,3 +83,5 @@ INSERT INTO UserTeam VALUES (10, 1);
 INSERT INTO Season VALUES (1, '2015-10-23', '2016-02-05', 'Late fall');
 
 INSERT INTO League VALUES (1, 'Basketball', 'male', 'advanced', 1);
+
+INSERT INTO Game VALUES (1, 1, 2, '2015-12-25', NULL, NULL);
