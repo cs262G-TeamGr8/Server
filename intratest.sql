@@ -1,4 +1,3 @@
--- Drop previous versions of the tables if they they exist, in reverse order of foreign keys.
 DROP TABLE IF EXISTS UserTeam;
 DROP TABLE IF EXISTS User;
 DROP TABLE IF EXISTS Team;
@@ -23,7 +22,7 @@ CREATE TABLE Season (
     
 CREATE TABLE League (
 	ID integer PRIMARY KEY,
-    --We have lots of varchars here - do we want to consider splitting them off into tables so we don't wind up with ceod bakestblal?
+    -- We have lots of varchars here - do we want to consider splitting them off into tables so we don't wind up with ceod bakestblal?
     sportName varchar(50),
     gender varchar(50),
     level varchar(50),
@@ -53,17 +52,17 @@ CREATE TABLE UserTeam (
     );
     
 -- Add sample records.
-INSERT INTO User VALUES (1, 'Joel Anthony', 'password', 'ja@gmail.com');
-INSERT INTO User VALUES (2, 'Aron Baynes', 'password', 'ab@gmail.com');
-INSERT INTO User VALUES (3, 'Steve Blake', 'password', 'sb@gmail.com');
-INSERT INTO User VALUES (4, 'Reggie Bullock', 'password', 'rb@gmail.com');
-INSERT INTO User VALUES (5, 'Kentavious Caldwell-Pope', 'password', 'kcp@gmail.com');
+INSERT INTO User VALUES (1, 'Joel Anthony', 'password', 'janthony@gmail.com');
+INSERT INTO User VALUES (2, 'Aron Baynes', 'password', 'abaynes@gmail.com');
+INSERT INTO User VALUES (3, 'Steve Blake', 'password', 'sblake@gmail.com');
+INSERT INTO User VALUES (4, 'Reggie Bullock', 'password', 'rbullock@gmail.com');
+INSERT INTO User VALUES (5, 'Kentavious Caldwell-Pope', 'password', 'kpope@gmail.com');
 
-INSERT INTO User VALUES (6, 'Cameron Bairstow', 'password', 'cb@gmail.com');
-INSERT INTO User VALUES (7, 'Aaron Brooks', 'password', 'ab2@gmail.com');
-INSERT INTO User VALUES (8, 'Jimmy Butler', 'password', 'jb@gmail.com');
-INSERT INTO User VALUES (9, 'Mike Dunleavy', 'password', 'md@gmail.com');
-INSERT INTO User VALUES (10, 'Cristiano Felicio', 'password', 'cf@gmail.com');
+INSERT INTO User VALUES (6, 'Cameron Bairstow', 'password', 'cbairstow@gmail.com');
+INSERT INTO User VALUES (7, 'Aaron Brooks', 'password', 'abrooks@gmail.com');
+INSERT INTO User VALUES (8, 'Jimmy Butler', 'password', 'jbutler@gmail.com');
+INSERT INTO User VALUES (9, 'Mike Dunleavy', 'password', 'mdunleavy@gmail.com');
+INSERT INTO User VALUES (10, 'Cristiano Felicio', 'password', 'cfelicio@gmail.com');
 
 INSERT INTO Team VALUES (1, '1966-01-16', 1, 'Chicago Bulls', 'bulls@gmail.com');
 INSERT INTO Team VALUES (2, '1957-01-16', 1, 'Detroit Pistons', 'pistons@gmail.com');
