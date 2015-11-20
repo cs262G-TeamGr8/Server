@@ -7,8 +7,8 @@ DROP TABLE IF EXISTS Game;
 
 -- Create the schema.
 CREATE TABLE User (
-	ID integer PRIMARY KEY, 
-	usrname varchar(50),
+    ID integer AUTO_INCREMENT NOT NULL PRIMARY KEY, 
+    usrname varchar(50),
     pw varchar(50),
     email varchar(50)
     );
@@ -52,9 +52,9 @@ CREATE TABLE UserTeam (
     );
     
 -- Add sample records.
-INSERT INTO User VALUES (1, 'Joel Anthony', 'password', 'janthony@gmail.com');
-INSERT INTO User VALUES (2, 'Aron Baynes', 'password', 'abaynes@gmail.com');
-INSERT INTO User VALUES (3, 'Steve Blake', 'password', 'sblake@gmail.com');
+INSERT INTO User VALUES (NULL, 'Joel Anthony', 'password', 'janthony@gmail.com');
+INSERT INTO User VALUES (NULL, 'Aron Baynes', 'password', 'abaynes@gmail.com');
+INSERT INTO User VALUES (, 'Steve Blake', 'password', 'sblake@gmail.com');
 INSERT INTO User VALUES (4, 'Reggie Bullock', 'password', 'rbullock@gmail.com');
 INSERT INTO User VALUES (5, 'Kentavious Caldwell-Pope', 'password', 'kpope@gmail.com');
 
