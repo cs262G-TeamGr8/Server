@@ -54,15 +54,15 @@ CREATE TABLE UserTeam (
 -- Add sample records.
 INSERT INTO User VALUES (NULL, 'Joel Anthony', 'password', 'janthony@gmail.com');
 INSERT INTO User VALUES (NULL, 'Aron Baynes', 'password', 'abaynes@gmail.com');
-INSERT INTO User VALUES (, 'Steve Blake', 'password', 'sblake@gmail.com');
-INSERT INTO User VALUES (4, 'Reggie Bullock', 'password', 'rbullock@gmail.com');
-INSERT INTO User VALUES (5, 'Kentavious Caldwell-Pope', 'password', 'kpope@gmail.com');
+INSERT INTO User VALUES (NULL, 'Steve Blake', 'password', 'sblake@gmail.com');
+INSERT INTO User VALUES (NULL, 'Reggie Bullock', 'password', 'rbullock@gmail.com');
+INSERT INTO User VALUES (NULL, 'Kentavious Caldwell-Pope', 'password', 'kpope@gmail.com');
 
-INSERT INTO User VALUES (6, 'Cameron Bairstow', 'password', 'cbairstow@gmail.com');
-INSERT INTO User VALUES (7, 'Aaron Brooks', 'password', 'abrooks@gmail.com');
-INSERT INTO User VALUES (8, 'Jimmy Butler', 'password', 'jbutler@gmail.com');
-INSERT INTO User VALUES (9, 'Mike Dunleavy', 'password', 'mdunleavy@gmail.com');
-INSERT INTO User VALUES (10, 'Cristiano Felicio', 'password', 'cfelicio@gmail.com');
+INSERT INTO User VALUES (NULL, 'Cameron Bairstow', 'password', 'cbairstow@gmail.com');
+INSERT INTO User VALUES (NULL, 'Aaron Brooks', 'password', 'abrooks@gmail.com');
+INSERT INTO User VALUES (NULL, 'Jimmy Butler', 'password', 'jbutler@gmail.com');
+INSERT INTO User VALUES (NULL, 'Mike Dunleavy', 'password', 'mdunleavy@gmail.com');
+INSERT INTO User VALUES (NULL, 'Cristiano Felicio', 'password', 'cfelicio@gmail.com');
 
 INSERT INTO Team VALUES (1, '1966-01-16', 1, 'Chicago Bulls', 'bulls@gmail.com');
 INSERT INTO Team VALUES (2, '1957-01-16', 1, 'Detroit Pistons', 'pistons@gmail.com');
