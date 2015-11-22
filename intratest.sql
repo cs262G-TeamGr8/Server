@@ -51,7 +51,7 @@ CREATE TABLE Game (
     CREATE TABLE Team (
     ID integer NOT NULL AUTO_INCREMENT PRIMARY KEY,
     startDate date,
-    leagueID integer REFERENCES League(ID),
+    sportID integer REFERENCES Sport(ID),
     name varchar(50),
     contact varchar(50)
     );
@@ -86,10 +86,10 @@ INSERT INTO User (usrname, pw, email) VALUES ('Isaiah Canaan', 'password', 'ican
 INSERT INTO User (usrname, pw, email) VALUES ('JaKarr Sampson', 'password', 'jsampson@gmail.com');
 INSERT INTO User (usrname, pw, email) VALUES ('Jahlil Okafor', 'password', 'jokafor@gmail.com');
 
-INSERT INTO Team (startDate, leagueID, name, contact) VALUES ('1957-01-16', 1, 'Detroit Pistons', 'pistons@gmail.com');
-INSERT INTO Team (startDate, leagueID, name, contact) VALUES ('1966-01-16', 1, 'Chicago Bulls', 'bulls@gmail.com');
-INSERT INTO Team (startDate, leagueID, name, contact) VALUES ('2015-11-20', 1, 'Yellow Vitamin Water', 'yvwater@gmail.com');
-INSERT INTO Team (startDate, leagueID, name, contact) VALUES ('2015-11-03', 1, 'Goal Diggers', 'gdiggers@gmail.com');
+INSERT INTO Team (startDate, sportID, name, contact) VALUES ('1957-01-16', 1, 'Detroit Pistons', 'pistons@gmail.com');
+INSERT INTO Team (startDate, sportID, name, contact) VALUES ('1966-01-16', 1, 'Chicago Bulls', 'bulls@gmail.com');
+INSERT INTO Team (startDate, sportID, name, contact) VALUES ('2015-11-20', 1, 'Yellow Vitamin Water', 'yvwater@gmail.com');
+INSERT INTO Team (startDate, sportID, name, contact) VALUES ('2015-11-03', 1, 'Goal Diggers', 'gdiggers@gmail.com');
 
 INSERT INTO UserTeam VALUES (1, 1);
 INSERT INTO UserTeam VALUES (2, 1);
