@@ -9,6 +9,8 @@ DROP TABLE IF EXISTS Season;
 DROP TABLE IF EXISTS SportSeason;
 DROP TABLE IF EXISTS Game;
 
+SET @@auto_increment_increment=1;
+
 -- Create the schema.
 CREATE TABLE User (
     ID integer NOT NULL AUTO_INCREMENT PRIMARY KEY, 
