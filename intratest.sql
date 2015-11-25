@@ -43,7 +43,7 @@ CREATE TABLE Game (
     ID integer NOT NULL AUTO_INCREMENT PRIMARY KEY,
     team1ID integer REFERENCES Team(ID),
     team2ID integer REFERENCES Team(ID),
-    date date,
+    date datetime,
     score1 integer,
     score2 integer
     );
@@ -121,8 +121,9 @@ INSERT INTO Sport (name, gender, level) VALUES ('Basketball', 'male', 'advanced'
 
 INSERT INTO SportSeason (sportID, seasonID) VALUES (1, 1);
 
-INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (1, 2, '2015-12-25', NULL, NULL);
-INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (3, 4, '2015-12-25', NULL, NULL);
-INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (1, 3, '2015-1-1', NULL, NULL);
-INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (2, 4, '2015-1-1', NULL, NULL);
+INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (1, 2, '2015-12-25 17:00:00', NULL, NULL);
+INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (3, 4, '2015-12-25 17:00:00', NULL, NULL);
+INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (1, 3, '2015-1-1 17:00:00', NULL, NULL);
+INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (2, 4, '2015-1-1 17:00:00', NULL, NULL);
 
+INSERT INTO User (usrname, pw, email) VALUES ('John Doe', 'password', 'johndoe@gmail.com');
