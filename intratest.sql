@@ -1,5 +1,5 @@
 -- Creates the schema and populates some dummy data for now
--- 
+--
 
 DROP TABLE IF EXISTS UserTeam;
 DROP TABLE IF EXISTS User;
