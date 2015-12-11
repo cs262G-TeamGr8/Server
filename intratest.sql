@@ -165,19 +165,23 @@ INSERT INTO SportSeason (sportID, seasonID) VALUES (3, 1);
 INSERT INTO SportSeason (sportID, seasonID) VALUES (4, 1);
 INSERT INTO SportSeason (sportID, seasonID) VALUES (5, 1);
 
-INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (1, 2, '2015-11-20 17:00:00', 57, 78);
-INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (3, 4, '2015-11-20 17:00:00', 69, 63);
-INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (1, 4, '2015-11-27 17:00:00', 61, 87);
-INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (2, 3, '2015-11-27 17:00:00', 76, 69);
-INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (1, 3, '2015-12-4 17:00:00', NULL, NULL);
-INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (2, 4, '2015-12-4 17:00:00', NULL, NULL);
+INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (1, 2, '2015-11-27 23:00:00', 57, 78);
+INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (3, 4, '2015-11-27 23:00:00', 69, 63);
+INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (1, 4, '2015-12-4 23:00:00', 61, 87);
+INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (2, 3, '2015-12-4 23:00:00', 76, 69);
+INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (1, 4, '2015-12-25 23:00:00', NULL, NULL);
+INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (2, 3, '2015-12-25 23:00:00', NULL, NULL);
+INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (1, 3, '2016-1-4 23:00:00', NULL, NULL);
+INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (2, 4, '2016-1-4 23:00:00', NULL, NULL);
 
-INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (5, 6, '2015-11-21 17:00:00', 3, 2);
-INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (7, 8, '2015-11-21 17:00:00', 0, 3);
-INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (5, 6, '2015-11-28 17:00:00', 1, 3);
-INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (7, 8, '2015-11-28 17:00:00', 2, 3);
-INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (5, 7, '2015-12-5 17:00:00', NULL, NULL);
-INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (6, 8, '2015-12-5 17:00:00', NULL, NULL);
+INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (5, 6, '2015-11-28 23:00:00', 3, 2);
+INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (7, 8, '2015-11-28 23:00:00', 0, 3);
+INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (5, 6, '2015-12-5 23:00:00', 1, 3);
+INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (7, 8, '2015-12-5 23:00:00', 2, 3);
+INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (5, 6, '2015-12-26 23:00:00', NULL, NULL);
+INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (7, 8, '2015-12-26 23:00:00', NULL, NULL);
+INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (5, 7, '2016-1-5 23:00:00', NULL, NULL);
+INSERT INTO Game (team1ID, team2ID, date, score1, score2) VALUES (6, 8, '2016-1-5 23:00:00', NULL, NULL);
 
 
 INSERT INTO User (usrname, pw, email) VALUES ('John Doe', 'password', 'johndoe@gmail.com');
